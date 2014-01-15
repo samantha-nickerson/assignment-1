@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
+		<meta charset="UTF-8">
+		<title>Home of the Rubber Buzzard: Wireframe</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="stylesheet" href="flex-slider/flexslider.css" type="text/css">
+		<link href="css/general.css" rel="stylesheet">
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width,initial-scale=1" >
+	</head>
+
+	<body class="wrapper"> 
+		<header>
+			<h1><a href="index.html">Rubber Buzzard</a></h1>
+			<a href="#nav" class="nav-btn hide-text" data-state="inactive">Navigation</a>
+			<nav class="nav nav-top" data-state="collapsed">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="music.html">Music</a></li>
+					<li><a href="photos.html">Photos</a></li>
+				</ul>
+			</nav>
+
+		</header>
+		
+			<div class="flexslider">
+			  <ul class="slides">
+				<li>
+				  <img src="http://placehold.it/350x150" alt="Placeholder">
+				  <p class="flex-caption">Singer</p>
+				</li>
+				<li>
+				  <img src="http://placehold.it/350x150" alt="Placeholder">
+				  <p class="flex-caption">Artist</p>
+				</li>
+				<li>
+				  <img src="http://placehold.it/350x150" alt="Placeholder">
+				  <p class="flex-caption">Musician</p>
+				</li>
+			  </ul>
+			</div>
+			
+			<main class="main">
+				
+				<h2>About Rubber Buzzard</h2>
+				
+				<hr>
+
+				<p>Rubber Buzzard is the musical pseudonym of Jonny Parks, a 22 year old vocalist/multi instrumentalist from Ottawa, ON. In 2009-2010, he formed and fronted the rap/rock band <a class="fancy-link ease-all" href="https://www.facebook.com/pages/Hot-Sugar/121122717935">Hot Sugar</a> before moving to Montreal to go to university, get some culture, and find some inspiration. It was here that he began recording and performing solo material under the name <em>Rubber Buzzard</em>, and has since co-written and performed with emerging rapper and longtime friend, <a class="fancy-link ease-all" href="http://www.jutesmusic.com">Jutes</a>.</p>
+				<br>
+				<p>Aside from writing and recording music, Rubber Buzzard has also been producing artwork for a number of years. He has recently taken to the city of Toronto to pursue his musical/artistic career; trying to evoke some feelings with sounds and images.</p>
+				<br>
+				<p>Connect with Rubber Buzzard on Facebook, Twitter and Youtube!</p>
+				
+			</main>
+				
+			<section>
+				<ul class="social">
+					<li><a class="ease-all" href="https://www.facebook.com/rubberbuzzard"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
+					<li><a class="ease-all" href="https://twitter.com/RubberBuzzard"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
+					<li><a class="ease-all" href="http://www.youtube.com/user/jonnyprks"><i class="fa fa-youtube-square"></i><span class="hide-text">Youtube</span></a></li>	
+				</ul>
+			</section>
+
+		<footer>
+			<nav id="nav" class="nav nav-bottom">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="music.html">Music</a></li>
+					<li><a href="photos.html">Photos</a></li>
+				</ul>
+			</nav>
+			<p class="copyright">Copyright © 2013</p>
+		</footer>
+
+	<script src="js/nav.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="flex-slider/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  	$(window).load(function() {
+    $('.flexslider').flexslider({
+		animation: "slide",
+		slideshowSpeed: 4000,
+		smoothHeight: true,	
+		pauseOnHover: true,
+		});
+  	});
+	</script>
+	</body>
+</html>
